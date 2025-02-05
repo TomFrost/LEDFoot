@@ -228,7 +228,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0c02d3a7-2c1a-4813-9eaa-eb12008f917f")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -762,7 +762,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/64d93899-0a17-4a0f-9956-3f2eb272277b")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -976,7 +976,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e3aefda8-063a-4022-8d8e-bc932d184215")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1189,7 +1189,7 @@
 		)
 		(path "/d34a8b13-2eb3-4530-a6ab-9e0c8b6636fe")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.23 -3.23)
@@ -1492,7 +1492,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/41140553-ad41-4ce4-b71e-8e6b78d33108")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1706,7 +1706,7 @@
 		(property ki_fp_filters "*DSN1608?2*")
 		(path "/4dda558d-159d-40f8-83fb-ba50a16c31a1")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.66 2.15)
@@ -1983,7 +1983,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3ba7f5ce-a8f4-48fa-a5df-2601694c785c")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2210,7 +2210,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6c1dc8f4-79e9-44d2-b37e-4fcc90489151")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2424,7 +2424,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3b8f24fe-d2bc-45b6-aebe-0321441d698a")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2696,7 +2696,7 @@
 		)
 		(path "/e54d0055-d76c-4fa0-88c0-329812ceac39")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.5 -6.8)
@@ -2969,7 +2969,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/0d416aa9-22c2-4c03-a38a-5aabbb3ada91")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.979646 -2.875)
@@ -5055,7 +5055,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/e4a47679-c5c6-448d-bc8a-223079d6abbc")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.3 -1.25)
@@ -5446,7 +5446,7 @@
 		)
 		(path "/eca4994e-096f-4032-8d24-a7039aecf28a")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -5838,7 +5838,7 @@
 		)
 		(path "/119c9c25-af39-47b6-9c44-2c1dbf037009")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.23 -3.23)
@@ -6138,7 +6138,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/334fba1d-c74a-4b6a-b21f-4dc6b44f895c")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -6535,7 +6535,7 @@
 		(property ki_fp_filters "*WeAct-ESP32C3CoreBoard*")
 		(path "/f458e553-435f-4d52-9cbd-6bc224cc9e3e")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr exclude_from_bom dnp)
 		(fp_rect
 			(start -8.8646 -15.2146)
@@ -7128,7 +7128,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9a3c38c0-9a9f-4c95-98fb-802f2f33d5c8")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -7348,7 +7348,7 @@
 		)
 		(path "/ca7b86e5-6890-4069-9832-4839cbdd9122")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(zone_connect 2)
 		(attr through_hole)
 		(fp_line
@@ -7624,7 +7624,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/968c0621-96b0-491a-824b-5b3f8531b20a")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -7838,7 +7838,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3b7c6cf2-8564-4566-8cc1-b923f7d2d000")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8052,7 +8052,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cd71173b-563f-4e98-b2f6-599ab7139da7")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8266,7 +8266,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/98fc4455-ae1e-4fa1-a349-aff3ccf70ae7")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -8477,7 +8477,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/3fe5d041-f653-46b2-9e93-bb47e4375909")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.26 2.26)
@@ -8733,7 +8733,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/ecb553da-4933-4c14-82c2-aa5547b806b3")
 		(sheetname "Root")
-		(sheetfile "ws2815_surface.kicad_sch")
+		(sheetfile "ledfoot.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
