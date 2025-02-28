@@ -1,11 +1,64 @@
 # LEDFoot
 
-An expansion board for the [WeAct Studio ESP32-C3Fx4](https://github.com/WeActStudio/WeActStudio.ESP32C3CoreBoard?tab=readme-ov-file)
-family of development boards, supporting a 12V power supply for 12V WS2815 LED strips and other 12V LED chains with 3-4
-pins and a sequential data line. KiCad.
+Control board for WS2815 and other 3-4 pin individually addressable LED strips that operate at 12V. Drivable by various inexpensive ESP32 dev boards. KiCad.
 
 ## Features
 
+* 12V input, 8A max rating
+* Sound-reactive support with onboard mic
+* Wide range of ESP32 dev board support
+  * ESP32-S3 (audio reactive **supported**)
+    * ESP32-S3 Super Mini [[Info](https://www.espboards.dev/esp32/esp32-s3-super-mini/)] [[Aliexpress](https://www.aliexpress.us/item/3256807337822466.html)]
+    * Seeed Studio XIAO ESP32S3 [[Info](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)] [[Aliexpress](https://www.aliexpress.us/item/3256807240469656.html)]
+  * ESP32-C3 (audio-reactive **not supported**)
+    * ESP32-C3 Super Mini [[Info](https://wiki.icbbuy.com/doku.php?id=developmentboard:esp32-c3mini#schematic)] [[Aliexpress](https://www.aliexpress.us/item/3256806846231704.html)]
+    * Seeed Studio XIAO ESP32C3 [[Info](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)] [[Aliexpress](https://www.aliexpress.us/item/3256806641821574.html)]
+  * Potentially more: Any board with 14-18 pins and 5V, GND, 3.3V to the RIGHT of the USB port may be compatible.
+    * Waveshare Zero boards are not compatible: their power pins are on the left side.
+* Reverse polarity protection
+* Transient power spike protection
+* Over-voltage and over-amperage protection
+* Power-save mode when lights are off
+* Ample onboard capacitance to reduce flicker and power overdraw
+* 5V data signal
+* 12 breakout pins for customizations, including 5 power pins: 12V, 5V, 3.3V, Ground, and Switched Ground (disconnects when LEDs are off)
+* 3.3V, 5V, 12V, and GND breakout pins
+* Tactile button
+* Configurable data line
+* Supports WLED and any other software that can be flashed to the ESP32-C3
+
+## Revisions
+
+### rev 2 (2025-02) (Super Mini Board footprint version)
+
+![PCB front, back, and assembled](images/rev2/rev2_3boards.jpg)
+
+#### Changes
+
+* Made 5V buck converter corrections outlined in rev 1
+* Corrected RUEF800 fuse footprint, kept on the back of the board
+* Switched from through-hole headers to SMD headers to avoid puncturing RUEF800
+* Added on-board SMD microphone for sound-reactivity
+* Reduced buttons to 1. Figuring out which of those two little buttons you had your finger on was terrible if the board was mounted out of sight.
+* Added a high-current logic-level MOSFET as a non-mechanical relay to shut off power to the LED strip when off, saving significant energy.
+
+#### Status
+
+* Printed and not fully tested
+* Onboard mic works wonderfully when the ESP32 daughterboard is powered via USB, but not 12V. This is due to too much ripple on the 5V rail. There are a few potential reasons for this; the largest was the decision to leave COMP on the MP1584EN floating to save space. This didn't cause an issue until adding the PDM mic, which is very sensitive to this noise. Its signal is nearly always high as a result.
+
+### rev 1 (2025-01) (WeAct Studio ESP32-C3Fx4 version)
+
+![PCB front and back](images/rev1/board_front_back.jpg)
+
+![PCB assembled, no ESP](images/rev1/assembled_no_esp.jpg)
+
+![PCB assembled with ESP](images/rev1/assembled_with_esp.jpg)
+
+#### Intended Features
+
+* Powered by the [WeAct Studio ESP32-C3Fx4](https://github.com/WeActStudio/WeActStudio.ESP32C3CoreBoard?tab=readme-ov-file)
+family of development boards
 * 12V input, 8A max rating
 * Reverse polarity protection
 * Transient power spike protection
@@ -17,16 +70,6 @@ pins and a sequential data line. KiCad.
 * Two tactile buttons (GPIO 8 and 9)
 * Configurable data line on GPIO 10
 * Supports WLED and any other software that can be flashed to the ESP32-C3
-
-## Revisions
-
-### rev 1 (2025-01)
-
-![PCB front and back](images/rev1/board_front_back.jpg)
-
-![PCB assembled, no ESP](images/rev1/assembled_no_esp.jpg)
-
-![PCB assembled with ESP](images/rev1/assembled_with_esp.jpg)
 
 #### Status
 
@@ -68,4 +111,3 @@ do otherwise is made at your own risk.
 These designs are published as an educational tool only. The designs, as well as any part manufactured according to
 these designs or a derivation thereof, may not be modified, produced, sold, or used as part of another design or
 product. These designs are wholly owned by their creator, with all applicable rights reserved.
-
