@@ -47,6 +47,12 @@ Control board for WS2815 and other 3-4 pin individually addressable LED strips t
 * Printed and not fully tested
 * Onboard mic works wonderfully when the ESP32 daughterboard is powered via USB, but not 12V. This is due to too much ripple on the 5V rail. There are a few potential reasons for this; the largest was the decision to leave COMP on the MP1584EN floating to save space. This didn't cause an issue until adding the PDM mic, which is very sensitive to this noise. Its signal is nearly always high as a result.
 
+#### Bonus assembly video
+
+[![Assembly video](https://img.youtube.com/vi/fRJq4f_MXR0/0.jpg)](https://www.youtube.com/watch?v=fRJq4f_MXR0)
+
+[Click to watch](https://www.youtube.com/watch?v=fRJq4f_MXR0)
+
 ### rev 1 (2025-01) (WeAct Studio ESP32-C3Fx4 version)
 
 ![PCB front and back](images/rev1/board_front_back.jpg)
